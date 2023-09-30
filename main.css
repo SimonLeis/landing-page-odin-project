@@ -1,0 +1,103 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    width: 1000px;
+    font-family: 'Arial';
+    margin: 0 auto;
+    
+
+}
+
+.header{
+    background-color: rgb(48, 48, 49);
+    color: white;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin-left: 50px ;
+}
+
+header ul{
+    margin-right: 50px;
+    list-style: none;
+    display: inline-block;
+
+}
+header ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 40%;
+
+
+}
+
+.left h1{
+    font-size: 2.5rem;
+    margin-bottom: -.5rem;
+}
+
+.left button{
+
+    background-color: rgb(53, 166, 236);
+    padding: 7px 10px 7px 10px;
+    border-radius: 7px;
+    height: 32px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size:13px;
+}
+.header_order{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 75px;
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+
+.right{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+
+.h{
+
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 2.2rem;
+
+}
